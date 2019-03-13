@@ -1,22 +1,287 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <script src="https://unpkg.com/vue/dist/vue.js"></script>
-    <title>vue-demo</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-    <div id="yl">{{ mess }}</div>
-    <script>
-    var yl = new Vue({
-      el: '#yl',
-      data: {
-        mess: 'hello world'
-      }
-    })
-    </script>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>bootstrap-demo</title>
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/bootstrap-bubble.css">
+        <link rel="stylesheet" href="static/css/animate.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <!-- 导航 -->
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <!-- 小屏幕导航按钮和logo -->
+                    <div class="navbar-header">
+                            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                            </button>
+                            <a href="index.html" class="navbar-brand">Bubble</a>
+                    </div>
+                    <!-- 小屏幕导航按钮和logo -->
+                    <!-- 导航 -->
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home">首页</a></li>
+                            <li><a href="#bbs">论坛</a></li>
+                            <li><a href="#html5">前端开发</a></li>
+                            <li><a href="#course">最新课程</a></li>
+                            <li><a href="#app">移动APP</a></li>
+                            <li><a href="#contact">联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <!-- 导航 -->
+
+        <!-- home -->
+        <section id="home">
+            <div class="lvjing">
+                <div class="container">
+                    <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <h1>bootstrap</h1>
+                            <p>
+                                bootstrapbootstrapbootstrapbootstrap<br/>
+                                bootstrapbootstrapbootstrapbootstrapbootstrapbootstrap
+                            </p>
+                            <p>
+                                AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>
+                                BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+                            </p>
+                            <img src="static/images/timg.jpg" alt="timg" class="img-responsive">
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- home -->
+
+        <!-- bbs -->
+        <section id="bbs">
+            <div class="container">
+                <div class="row wow fadeInUp" data-wow-duration="0.5s">
+                    <div class="col-md-4">
+                        <a href="" target="_black">
+                            <img src="static/images/a.png" alt="" class="img-responsive">
+                            <h3>AAA</h3>
+                            <p>BBBBBBBBB</p>
+                        </a>  
+                    </div>
+                    
+                    <div class="col-md-4"> 
+                        <a href="" target="_black">
+                            <img src="static/images/i.png" alt="" class="img-responsive">
+                            <h3>AAA</h3>
+                            <p>BBBBBBBBB</p>
+                        </a>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <a href="" target="_black">
+                            <img src="static/images/b.png" alt="" class="img-responsive">
+                            <h3>AAA</h3>
+                            <p>BBBBBBBBB</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bbs -->
+        <!-- html5 -->
+        <section id="html5">
+            <div class="container">
+                <div class="col-md-6 wow fadeInLeft">
+                    <h2>HTML5前端开发</h2>
+                    <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                    <p><span class="glyphicon glyphicon-sunglasses bubble-icon"></span>前端开发前端开发前端开发前端开发前端开发前端开发前端开发前端开发</p>
+                    <p><span class="glyphicon glyphicon-grain bubble-icon"></span>CCCCCCCCCCCCCCCCCCCCCCCCCCCC</p>
+                </div>
+                <div class="col-md-6 wow fadeInRight">
+                    <img src="static/images/html5.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- html5 -->
+        <!-- bootstrap -->
+        <section id="bootstrap">
+                <div class="container wow fadeInUp">
+                    <div class="col-md-6">
+                            <img src="static/images/html5.jpg" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2>bootstrap</h2>
+                        <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                        <p><span class="glyphicon glyphicon-sunglasses bubble-icon"></span>前端开发前端开发前端开发前端开发前端开发前端开发前端开发前端开发</p>
+                        <p><span class="glyphicon glyphicon-grain bubble-icon"></span>CCCCCCCCCCCCCCCCCCCCCCCCCCCC</p>
+                    </div>
+                </div>
+            </section>
+        <!-- bootstrap -->
+        <!-- course -->
+        <section id="course">
+            <div class="container">
+                <div class="row wow fadeIn" data-wow-delay="0.6s">
+                  <div class="col-md-12">
+                      <h2>最新课程</h2>
+                  </div>  
+                  <div class="col-md-3">
+                      <div class="course">
+                          <img src="static/images/zzxy.jpg" class="img-responsive" alt="">
+                          <a href="www.baidu.com" class="btn btn-primary" target="_blank" role="button">加入学习</a>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="course">
+                            <img src="static/images/zzxy.jpg" class="img-responsive" alt="">
+                            <a href="www.baidu.com" class="btn btn-primary" target="_blank" role="button">加入学习</a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                        <div class="course">
+                                <img src="static/images/zzxy.jpg" class="img-responsive" alt="">
+                                <a href="www.baidu.com" class="btn btn-primary" target="_blank" role="button">加入学习</a>
+                        </div>
+                  </div>
+                  <div class="col-md-3">
+                        <div class="course">
+                                <img src="static/images/zzxy.jpg" class="img-responsive" alt="">
+                                <a href="www.baidu.com" class="btn btn-primary" target="_blank" role="button">加入学习</a>
+                        </div>
+                  </div>
+                  <div class="col-md-3">
+                        <div class="course">
+                                <img src="static/images/zzxy.jpg" class="img-responsive" alt="">
+                                <a href="www.baidu.com" class="btn btn-primary" target="_blank" role="button">加入学习</a>
+                        </div>
+                  </div>
+                  <div class="col-md-3">
+                        <div class="course">
+                                <img src="static/images/zzxy.jpg" class="img-responsive" alt="">
+                                <a href="www.baidu.com" class="btn btn-primary" target="_blank" role="button">加入学习</a>
+                        </div>
+                  </div>
+                  <div class="col-md-3">
+                        <div class="course">
+                                <img src="static/images/zzxy.jpg" class="img-responsive" alt="">
+                                <a href="www.baidu.com" class="btn btn-primary" target="_blank" role="button">加入学习</a>
+                        </div>
+                  </div>
+                  <div class="col-md-3">
+                        <div class="course">
+                                <img src="static/images/zzxy.jpg" class="img-responsive" alt="">
+                                <a href="www.baidu.com" class="btn btn-primary" target="_blank" role="button">加入学习</a>
+                        </div>
+                  </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- course -->
+        <!-- app -->
+        <section id="app">
+            <div class="container">
+                <div class="row wow fadeInUp">
+                    <div class="col-md-6">
+                        <h2>麦子学院移动APP下载</h2>
+                        <p>
+                            全新UI交互，与新网站数据同步，更加丰富的课程，开启精彩无限，语音搜索课程，喊出你想要的课程，一件收藏，方便自己重复学习，离线下载课程，在哪儿都能开！
+                        </p>
+                        <button class="btn btn-primary">
+                                <span class="glyphicon glyphicon-download-alt"></span>
+                                iPhone版
+                        </button>
+                        <button class="btn btn-primary">
+                            <span class="glyphicon glyphicon-download-alt"></span>
+                            Android版
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                            <img src="static/images/app-banner.jpg" class="img-responsive" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- app -->
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="lvjing">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 wow fadeInLeft">
+                            <h2>
+                                <span class="glyphicon glyphicon-send"></span>
+                                &nbsp;
+                                联系bubble
+                            </h2>
+                            <p>
+                                爱生活，爱技术。喜欢静静写代码的程序员。
+                            </p>
+                            <address>
+                                <p>
+                                    <span class="glyphicon glyphicon-home"></span>
+                                    &nbsp;
+                                    地址:陕西省西安市雁塔区
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-phone-alt"></span>
+                                    &nbsp;
+                                    联系电话：17791205330
+                                </p>
+                                <p>
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                    &nbsp;
+                                    邮箱:17791205330@163.com
+                                </p>
+                            </address>
+                        </div>
+                        <div class="col-md-6 wow fadeInRight">
+                            <form action="#" method="post">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="您的姓名"/>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="您的邮箱"/>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" placeholder="标题"/>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control" placeholder="留言内容" rows="4"></textarea>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="submit" class="form-control" value="提交"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="static/js/bootstrap.min.js"></script>
+        <script src="static/js/jquery.singlePageNav.min.js"></script>
+        <script src="static/js/wow.min.js"></script>
+        <script>
+            $(function(){
+                $('.nav').singlePageNav({
+                    offset: 70
+                });
+                $('.navbar-collapse a').click(function(){
+                    $('.navbar-collapse').collapse('hide');
+                });
+                new WOW().init();
+            })
+            new Vue({})
+        </script>
+    </body>
 </html>
